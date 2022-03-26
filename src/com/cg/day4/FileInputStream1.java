@@ -10,6 +10,7 @@ public class FileInputStream1 {
 
 		// code that may generate IOException
 		File newFile = new File("test.txt");
+		@SuppressWarnings({ "unused", "resource" })
 		FileInputStream stream = new FileInputStream(newFile);
 	}
 

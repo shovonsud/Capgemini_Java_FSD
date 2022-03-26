@@ -5,6 +5,7 @@ public class TryCatchFinally {
 	public static void main(String[] args) {
 		try {
 			// code that generates exception
+			@SuppressWarnings("unused")
 			int divideByZero = 5 / 0;
 		}
 

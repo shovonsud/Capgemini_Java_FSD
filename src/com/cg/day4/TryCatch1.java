@@ -6,6 +6,7 @@ public class TryCatch1 {
 		try {
 
 			// code that generate exception
+			@SuppressWarnings("unused")
 			int divideByZero = 5 / 0;
 			System.out.println("Rest of code in try block");
 		} catch (ArithmeticException e) {
